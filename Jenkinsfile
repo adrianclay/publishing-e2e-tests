@@ -177,8 +177,9 @@ timestamps {
       try {
         stage("Start docker apps") {
           try {
+            sh("make setup_dependencies -j12")
             sh("make up")
-            sh("make setup -j12")
+            sh("make setup_apps -j12")
           } catch(e) {
             echo("We weren't able to setup for tests, this probably means there is a bigger problem. Test aborting")
             throw e
