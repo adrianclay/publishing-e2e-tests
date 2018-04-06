@@ -115,7 +115,7 @@ difficult - particularly early in a tests introduction - therefore we have a
 
 ## Contributing
 
-There is information on the coding standards, how to ad tests and how to add
+There is information on the coding standards, how to add tests and how to add
 applications to this project in the [contributing guidelines](CONTRIBUTING.md).
 
 ## Gotchas
